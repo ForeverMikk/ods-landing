@@ -23,7 +23,7 @@ const Home = () => {
                     ¡Se parte de esto!
                 </p>
 
-                <Link to='/terms'> INICIAR ENCUESTA</Link>
+                <Link to='/form'> INICIAR ENCUESTA</Link>
             </div>
 
             <footer>
