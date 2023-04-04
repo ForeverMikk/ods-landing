@@ -1,3 +1,35 @@
-.center {
+.home {
+    width: 100%;
+    height: 100vh;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+}
+nav img {
+    width: 10rem;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: calc(100% - 12rem);
+}
+
+.main p {
     background: #A21841;
+    width: 50%;
+    padding: 2rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+
+footer img {
+    height: 3.5rem;
+    
 }
