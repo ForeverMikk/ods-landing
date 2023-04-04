@@ -1,4 +1,5 @@
 import React from 'react';
+import Popup from 'reactjs-popup';
 
 import './Home.css';
 import logo  from '../../assets/logo-1.png';
@@ -23,7 +24,9 @@ const Home = () => {
                     ¡Se parte de esto!
                 </p>
 
-                <button>Iniciar Encuaesta</button>
+                <Popup trigger={<button> INICIAR ENCUESTA</button>} modal>
+                    <h1>Popup content here !!</h1>
+                </Popup>
             </div>
 
             <footer>

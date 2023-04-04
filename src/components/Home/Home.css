@@ -1,6 +1,7 @@
 .home {
-    width: 100%;
-    height: calc(100vh - 4rem);
+    width: 100% !important;
+    /* height: calc(100vh - 4rem); */
+    height: 100vh;
 }
 
 nav {
