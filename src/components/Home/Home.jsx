@@ -1,10 +1,9 @@
 import React from 'react';
-import Popup from 'reactjs-popup';
+import { Route, Link } from 'react-router-dom';
 
 import './Home.css';
 import logo  from '../../assets/logo-1.png';
 import logoOds  from '../../assets/logo-1.png';
-import footerImg from '../../assets/asset-14.png';
 
 const Home = () => {
     return (
@@ -24,9 +23,7 @@ const Home = () => {
                     ¡Se parte de esto!
                 </p>
 
-                <Popup trigger={<button> INICIAR ENCUESTA</button>} modal>
-                    <h1>Popup content here !!</h1>
-                </Popup>
+                <Link to='/terms'> INICIAR ENCUESTA</Link>
             </div>
 
             <footer>
