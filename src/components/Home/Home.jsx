@@ -27,7 +27,7 @@ const Home = () => {
             </div>
 
             <footer>
-                <div className="bg-footer"></div>
+                <div className="bg-footer">.</div>
             </footer>
         </section>
     )

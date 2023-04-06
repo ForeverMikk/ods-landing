@@ -1,0 +1,13 @@
+.data-form, .terms-popup {
+    background: #F4EBD9;
+    color: #A21942;   
+}
+
+.terms-popup {
+    margin: 0;
+    padding: 2rem;
+}
+
+.popup-content {
+    padding: 0;
+}
