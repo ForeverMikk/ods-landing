@@ -3,11 +3,13 @@ import Popup from 'reactjs-popup';
 
 import './Form.css';
 import TermsConditions from '../TermsConditions/TermsConditions';
+import Navbar from '../Navbar/Navbar';
+import { Link } from 'react-router-dom';
 
 
 const Form = () => {
     return (
-        <div className='data-form'>
+        <section className='form'>
             <h1>Datos de usuario</h1>
 
             <label htmlFor="name">Ingresa tu nombre completo</label>
@@ -28,15 +30,15 @@ const Form = () => {
                 </div>
             </div>
             
+            <Link to="/"> Regresar </Link>
             <Popup 
-                trigger={<button type='button'> Siguiente</button>} 
+                trigger={<button type='button'> Enviar Cuestionarioa</button>} 
                 modal
                 className='terms-button'
                 >
-               <TermsConditions />
+            <TermsConditions />
             </Popup>
-            
-        </div>
+        </section>
     )
 }
 

@@ -2,18 +2,11 @@ import React from 'react';
 import { Route, Link } from 'react-router-dom';
 
 import './Home.css';
-import logo  from '../../assets/logo-1.png';
-import logoOds  from '../../assets/logo-1.png';
+import Navbar from '../Navbar/Navbar';
 
 const Home = () => {
     return (
         <section className='home'>
-
-            <nav>
-                <img src={logo} alt="Logo Gobierno de Hidalgo" />
-                <img src={logoOds} alt="Logo ODS" />
-            </nav>
-
             <div className="main">
                 <p>
                     Queremos saber tu opinión acerca de la
@@ -29,11 +22,7 @@ const Home = () => {
                         <path strokeLinecap="round" strokeLinejoin="round" d="M12.75 15l3-3m0 0l-3-3m3 3h-7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                     </svg>
                 </Link>
-            </div>
-
-            <footer>
-                <div className="bg-footer">.</div>
-            </footer>
+            </div>           
         </section>
     )
 }
