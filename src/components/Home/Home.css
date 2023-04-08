@@ -27,8 +27,32 @@ nav img {
     padding: 2rem;
     font-size: 1.5rem;
     font-weight: 500;
+    box-shadow: 15px 12px 1px #BC9456;
 }
 
+.form-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2rem;
+    background: #C21E32;
+    width: 17rem;
+    height: 3rem;
+    text-decoration: none;
+    color: #fff;
+}
+
+.form-button span {
+    margin-right: 8px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.25rem;
+}
+
+.form-button svg {
+    height: 3rem;
+    width: 3rem;
+}
 footer {
     height: 3.5rem;
 }
