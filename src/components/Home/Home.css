@@ -1,7 +1,7 @@
 .home {
     width: 100% !important;
     /* height: calc(100vh - 4rem); */
-    height: 100vh;
+    /* height: auto; */
 }
 
 .main {
@@ -9,7 +9,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: calc(100% - 12rem);
+    /* height: calc(100% - 12rem); */
 }
 
 .main p {
@@ -19,6 +19,7 @@
     font-size: 1.5rem;
     font-weight: 500;
     box-shadow: 15px 12px 1px #BC9456;
+    margin-bottom: 3rem;
 }
 
 .form-button {

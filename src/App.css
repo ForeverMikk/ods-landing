@@ -3,3 +3,11 @@
   padding: 0 !important;
   text-align: center;
 }
+
+
+.App {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
